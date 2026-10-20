@@ -16,3 +16,7 @@ double divide(double a, double b) {
 double power(double a, double b) {
     return pow(a, b);
 }
+
+double modulo(double a, double b) {
+    return fmod(a, b);
+}
