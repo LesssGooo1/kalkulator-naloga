@@ -29,6 +29,7 @@ int main(int argc, char *argv[]) {
             }
             result = divide(a, b);
             break;
+        case '^': result = power(a, b); break;
         default:
             fprintf(stderr, "Nepoznat operator: %c\n", op);
             return 1;
