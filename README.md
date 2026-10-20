@@ -26,3 +26,4 @@ Jednostavan kalkulator komandne linije napisan u C-u. Projekat služi za vežbu 
 ## Licenca
 
 MIT
+Clone added this.
