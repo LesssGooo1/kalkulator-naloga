@@ -22,6 +22,13 @@ int main(int argc, char *argv[]) {
         case '+': result = add(a, b);      break;
         case '-': result = subtract(a, b); break;
         case 'x': result = multiply(a, b); break;
+        case '/':
+            if (b == 0) {
+                fprintf(stderr, "Greska: deljenje nulom\n");
+                return 1;
+            }
+            result = divide(a, b);
+            break;
         default:
             fprintf(stderr, "Nepoznat operator: %c\n", op);
             return 1;
