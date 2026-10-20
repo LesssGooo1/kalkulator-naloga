@@ -22,6 +22,7 @@ int main(int argc, char *argv[]) {
         case '+': result = add(a, b);      break;
         case '-': result = subtract(a, b); break;
         case 'x': result = multiply(a, b); break;
+        case '^': result = power(a, b); break;
         default:
             fprintf(stderr, "Nepoznat operator: %c\n", op);
             return 1;

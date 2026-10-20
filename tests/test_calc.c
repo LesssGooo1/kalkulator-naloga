@@ -20,5 +20,6 @@ int main(void) {
     check("subtract 3-5", subtract(3, 5), -2);
     check("multiply 3*4", multiply(3, 4), 12);
     check("multiply -2*5", multiply(-2, 5), -10);
+    check("power 2^10", power(2, 10), 1024);
     return failed ? 1 : 0;
 }
