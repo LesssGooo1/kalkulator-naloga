@@ -1,0 +1,9 @@
+# Build izlaz
+build/
+*.o
+*.out
+
+# Tajne i lokalna podesavanja
+.env
+*.log
+.vscode/
