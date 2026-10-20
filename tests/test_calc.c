@@ -23,5 +23,6 @@ int main(void) {
     check("divide 10/4", divide(10, 4), 2.5);
     check("power 2^10", power(2, 10), 1024);
     check("modulo 10%3", modulo(10, 3), 1);
+    check("modulo -7%3", modulo(-7, 3), -1);
     return failed ? 1 : 0;
 }
