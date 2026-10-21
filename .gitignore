@@ -7,3 +7,13 @@ build/
 .env
 *.log
 .vscode/
+# Dodatno
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+.idea/
+*.swp
+*~
+.DS_Store
